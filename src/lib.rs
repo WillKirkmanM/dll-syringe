@@ -1,3 +1,4 @@
+#![feature(once_cell_try)]
 #![cfg(windows)]
 #![feature(maybe_uninit_uninit_array, maybe_uninit_slice, linked_list_cursors)]
 #![cfg_attr(feature = "syringe", feature(once_cell_try))]
